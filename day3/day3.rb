@@ -20,5 +20,5 @@ end
 puts "# tree count"
 puts slopes
 
-tree_product = slopes.values.map{|e| e[:tree_count]}.reduce(:*)
+tree_product = slopes.values.map{|v| v[:tree_count]}.reduce(:*)
 puts "# tree product: #{tree_product}"
